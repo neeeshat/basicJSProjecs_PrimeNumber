@@ -3,7 +3,10 @@
 // and using i < parseInt(num**0.5)+1 instead of i<n
 // test with this 1000000007  which is a prime number
 
-let num = 1000000007;
+
+function isPrime(num)
+{
+	//let num = 1000000007;
 
 let i=2;
 let isPrime =true;
@@ -26,3 +29,8 @@ if (isPrime)
 else 
 	console.log(`as a result ${num} is not a prime number`);
 		
+}
+
+isPrime(8);
+isPrime(1000000007);
+isPrime(897766645379);
